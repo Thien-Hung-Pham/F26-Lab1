@@ -15,8 +15,8 @@
 name= "Thien Hung Pham"
 name = name.upper()
 age = 19
-
-print("How are you {}? Happy {}th birthday".format(name, age))
+mystr = "How are you {}? Happy {}th birthday".format(name, age)
+print(mystr)
 
 #TO-DO 2:
 # Create a variable called "words".

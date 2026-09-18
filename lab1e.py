@@ -16,6 +16,6 @@
 # Then print the product of `quantity` and `stock` with 7 spaces before the answer and make sure the answer only goes to hundreadths (-.--) using the module % formatting.
 quantity = 12.6
 stock = 99.9
-
-print("    %f" % (stock * quantity))
-print("       %.2f" % (stock * quantity))
+product = stock * quantity
+print("    %f" % product)
+print("       %.2f" % product)

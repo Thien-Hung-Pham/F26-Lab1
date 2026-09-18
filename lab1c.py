@@ -14,8 +14,7 @@
 # use the contant pi form math module and compute the area of the circle using the variable 'radius'
 import math
 
-r = input("Enter radius: ")
-r = int(r)
+r = int(input("Enter radius: "))
 area = r**2 * math.pi 
 
 print("Area:", area)
