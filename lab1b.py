@@ -14,6 +14,9 @@
 num1 = int(input("Enter num1: "))
 num2 = int(input("Enter num2: "))
 
+print(type(num1))
+print(type(num2))
+
 # TO-DO 2:
 # Perform all arithmetic oeprations as outlined in the description in README.md file, and print in the required format.
 sum = num1 + num2 

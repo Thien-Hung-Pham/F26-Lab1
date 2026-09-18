@@ -3,7 +3,7 @@
 
 #!/usr/bin/env python3
 # Author: Thien Hung Pham
-# Date:
+# Date: 18/9/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1e.py
 
