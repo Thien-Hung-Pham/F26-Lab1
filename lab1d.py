@@ -3,7 +3,7 @@
 
 #!/usr/bin/env python3
 # Author: Thien Hung Pham
-# Date:
+# Date: 18/9/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1d.py
 
@@ -23,7 +23,7 @@ print("How are you {}? Happy {}th birthday".format(name, age))
 # The value of words should be "The quick brown fox jumps over the lazy dog".
 # Use indexing to return the first and 17th charecters of "words" to the user.
 words = "The quick brown fox jumps over the lazy dog"
-print(words[-23:-18])
+print(words[0:17])
 
 #TO-DO 3:
 # Use negative indexing to return the words "jumps" and "quick" from "words" to the user.
@@ -34,5 +34,5 @@ print(words[-39:-34])
 #TO-DO 4:
 # Use slicing to retun everything between index 2-15 to the user.
 # Print "uick brown foxs ju" from "words".
-print(words[2:15])
+print(words[2:16])
 print(words[5:22])

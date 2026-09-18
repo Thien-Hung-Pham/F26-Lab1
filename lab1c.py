@@ -3,7 +3,7 @@
 
 #!/usr/bin/env python3
 # Author: Thien Hung Pham
-# Date:
+# Date: 18/9/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1c.py
 
@@ -14,7 +14,7 @@
 # use the contant pi form math module and compute the area of the circle using the variable 'radius'
 import math
 
-radius = int(input("Enter radius: "))
-area = radius**2 * math.pi 
+r = int(input("Enter radius: "))
+area = r**2 * math.pi 
 
 print("Area:", area)
