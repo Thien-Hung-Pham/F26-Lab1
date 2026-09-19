@@ -17,5 +17,6 @@
 quantity = 2.5
 stock = 5.5
 product = stock * quantity
-print("%13f" % product)
-print("%12.2f" % product)
+# The %n indicate the width of the output. So to get the required output, I take the sum of spaces with the character length of product 
+print("%13f" % product) # 4 (spaces) + 9 (length of product) = 13
+print("%12.2f" % product) # 7 (spaces) + 5 (length of product) = 12
