@@ -21,18 +21,18 @@ print(mystr)
 #TO-DO 2:
 # Create a variable called "words".
 # The value of words should be "The quick brown fox jumps over the lazy dog".
-# Use indexing to return the first and 17th charecters of "words" to the user.
 words = "The quick brown fox jumps over the lazy dog"
-print(words[0:17])
+# Use indexing to return the first and 17th characters of "words" to the user.
+print(words[0:18])
 
 #TO-DO 3:
 # Use negative indexing to return the words "jumps" and "quick" from "words" to the user.
-print(words[-23:-18])
-print(words[-39:-34])
+print(words[-23:-18]) # jumps
+print(words[-39:-34]) # quick
 
 
 #TO-DO 4:
 # Use slicing to retun everything between index 2-15 to the user.
-# Print "uick brown foxs ju" from "words".
 print(words[2:16])
+# Print "uick brown foxs ju" from "words".
 print(words[5:22])
